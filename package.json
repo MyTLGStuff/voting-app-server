@@ -1,0 +1,39 @@
+{
+  "name": "voting-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MyTLGStuff/voting-app-server.git"
+  },
+  "author": "Leonard Box",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MyTLGStuff/voting-app-server/issues"
+  },
+  "homepage": "https://github.com/MyTLGStuff/voting-app-server#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.2",
+    "connect-mongo": "^4.6.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.3",
+    "express-session": "^1.17.2",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.5",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-local": "^1.0.0",
+    "socket.io": "^4.4.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
